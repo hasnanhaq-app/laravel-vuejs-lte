@@ -45,12 +45,18 @@
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview">
+                    <ul class="nav n av-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
-                                <i class="fas fa-user nav-icon"></i>
+                            <router-link to="data-user" class="nav-link">
+                                <i class="fas fa-users nav-icon"></i>
                                 <p>Data User</p>
-                            </a>
+                            </router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="data-level" class="nav-link">
+                                <i class="fas fa-users nav-icon"></i>
+                                <p>Data Level</p>
+                            </router-link>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">

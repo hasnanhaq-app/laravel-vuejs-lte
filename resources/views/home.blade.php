@@ -14,7 +14,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 </head>
 
 <body class="hold-transition sidebar-mini">
-    <div class="wrapper">
+    <div class="wrapper" id="app">
 
         <!-- Navbar -->
         @include('template.navbar')
@@ -24,13 +24,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
         @include('template.left-sidebar')
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper" id="app">
+        <div class="content-wrapper" >
 
             <!-- Main content -->
             <div class="content">
-                <div class="container-fluid">
+                {{-- <div class="container-fluid">
                     <example-component></example-component>
-                </div><!-- /.container-fluid -->
+                </div><!-- /.container-fluid --> --}}
+                    <router-view></router-view>
             </div>
             <!-- /.content -->
         </div>
