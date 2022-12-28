@@ -8,7 +8,7 @@
                     <div class="card-body">
                         <div class="form-group">
                             <div class="table-responsive">
-                                <div class="table">
+                                <table class="table">
                                     <thead>
                                         <tr>
                                             <th>Nama Level</th>
@@ -21,7 +21,7 @@
                                             <td> Edit | Hapus </td>
                                         </tr>
                                     </tbody>
-                                </div>
+                                </table>
                             </div>
                         </div>
                     </div>

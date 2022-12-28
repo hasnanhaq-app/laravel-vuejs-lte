@@ -5459,7 +5459,7 @@ var render = function render() {
     staticClass: "form-group"
   }, [_c("div", {
     staticClass: "table-responsive"
-  }, [_c("div", {
+  }, [_c("table", {
     staticClass: "table"
   }, [_vm._m(0), _vm._v(" "), _c("tbody", _vm._l(_vm.levels, function (level) {
     return _c("tr", {
