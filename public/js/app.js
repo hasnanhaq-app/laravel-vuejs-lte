@@ -5541,7 +5541,9 @@ vue__WEBPACK_IMPORTED_MODULE_0__["default"].component('example-component', (__we
  */
 
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
-  routes: routes
+  routes: routes,
+  linkActiveClass: "active",
+  linkExactActiveClass: "active"
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0__["default"]({
   el: '#app',

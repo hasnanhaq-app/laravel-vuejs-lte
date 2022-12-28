@@ -37,7 +37,9 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  */
 
 const router = new VueRouter({
-    routes
+    routes,
+    linkActiveClass: "active",
+    linkExactActiveClass: "active",
 })
 
 const app = new Vue({
